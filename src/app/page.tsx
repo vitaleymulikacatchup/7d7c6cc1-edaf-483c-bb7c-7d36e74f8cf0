@@ -12,7 +12,7 @@ import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
 import { Coffee, Leaf, Handshake, Flame, User, Star, Globe, Thermometer, Palette, Home, TrendingUp, Users, MessageSquare, Laptop, Award, Heart, HelpCircle, Mail, Instagram, Facebook, Twitter } from "lucide-react";
 
-export default function Home() {
+export default function CoffeeHavenPage() {
   return (
     <ThemeProvider
       defaultButtonVariant="expand-hover"
@@ -29,8 +29,8 @@ export default function Home() {
       <div id="nav" data-section="nav">
         <NavbarStyleApple
           navItems={[
-            { name: "Home", id: "home" },
-            { name: "Menu", id: "menu" },
+            { name: "Home", id: "hero" },
+            { name: "Menu", id: "features" },
             { name: "About", id: "about" },
             { name: "Reviews", id: "testimonials" },
             { name: "Contact", id: "contact" }
@@ -46,7 +46,7 @@ export default function Home() {
           tag="Premium Coffee"
           tagIcon={Coffee}
           buttons={[
-            { text: "Explore Menu", href: "menu" },
+            { text: "Explore Menu", href: "features" },
             { text: "Visit Us", href: "contact" }
           ]}
           mediaItems={[
@@ -174,8 +174,6 @@ export default function Home() {
           tagIcon={MessageSquare}
           textboxLayout="default"
           animationType="scale-rotate"
-          gridVariant="uniform-all-items-equal"
-          carouselMode="buttons"
           testimonials={[
             {
               id: "1",
@@ -275,9 +273,9 @@ export default function Home() {
             {
               title: "Menu",
               items: [
-                { label: "Espresso", href: "menu" },
-                { label: "Filter Coffee", href: "menu" },
-                { label: "Specialty Drinks", href: "menu" }
+                { label: "Espresso", href: "features" },
+                { label: "Filter Coffee", href: "features" },
+                { label: "Specialty Drinks", href: "features" }
               ]
             },
             {
