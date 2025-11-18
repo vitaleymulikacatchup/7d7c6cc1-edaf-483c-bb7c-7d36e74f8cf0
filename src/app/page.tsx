@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -70,7 +70,7 @@ export default function Home() {
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1763480907599-9ywwqh3a.jpg",
               imageAlt: "Premium coffee beans"
             }
-          ]
+          ]}
         />
       </div>
 
